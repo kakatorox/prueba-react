@@ -6,6 +6,23 @@ https://www.youtube.com/watch?v=ZnC2zXD5j1s
 https://kakatorox.github.io/prueba-react/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
