@@ -1,3 +1,8 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.page{
+  justify-items: center;
+
+}
+.table{
+  width: 40%;
+  margin: auto;
+}
+
+.imgLogo{
+  height: 40px;
+  width: 40px;
+  padding: auto;
+  border-radius: 50%;
+  border: black 1px solid;
+}
+
+.cards {
+  padding: 0px;
+  margin-bottom: 8%;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 45px
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  opacity: 0.8;
+}
+
+.navbar{
+  width: 100%;
+}
+
+.Selectd{
+  width: 200px;
+}
+
+
+footer{
+  color: white;
+  left:0px;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  background:#999;
 }
